@@ -1,4 +1,12 @@
 <p id="notice"><%= notice %></p>
-
-<%= link_to 'Edit', edit_weather_path(@weather) %> |
-<%= link_to 'Back', weathers_path %>
+<div class="Welcome">
+<h1>Welcome!</h1>
+</div>
+<div class="Info">
+<h2>Date & Time</h2>
+<p><%= @date %></p>
+<h2>Temperature</h2>
+<p><%= @temp %></p>
+<h2>Weather Today</h2>
+<p><%= @text %></p>
+</div>

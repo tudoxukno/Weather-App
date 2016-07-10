@@ -1,3 +1,35 @@
-// Place all the styles related to the weathers controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/ee/73/88/ee7388ed992d64aecc8a34823648c046.gif");
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100vw;
+}
+
+@font-face { font-family: Road Rage;
+src: url('ROAD_RAGE.OTF'); }
+h1 {
+  font-family: Road Rage;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+@font-face { font-family: Raleway;
+src: url('RAILWAY THIN.TTF'); }
+h2 {
+  font-family: Raleway;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+div.Info {
+  padding: 10em 2em 10em 2em;
+  margin: 0;
+}
